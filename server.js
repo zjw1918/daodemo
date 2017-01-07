@@ -16,10 +16,10 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World -express2!');
+  res.send('Hello World -express3');
 });
 
-var server = app.listen(process.env.PORT || 80, function () {
+var server = app.listen(process.env.PORT || 3001, function () {
   var host = server.address().address;
   var port = server.address().port;
 
