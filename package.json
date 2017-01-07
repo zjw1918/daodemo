@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/zjw1918/daodemo/issues"
   },
-  "homepage": "https://github.com/zjw1918/daodemo#readme"
+  "homepage": "https://github.com/zjw1918/daodemo#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
